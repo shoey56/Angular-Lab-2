@@ -1,0 +1,22 @@
+.post{
+    background-color: cornsilk;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 400px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    margin: auto;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+}

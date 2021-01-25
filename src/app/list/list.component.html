@@ -1,0 +1,6 @@
+<div *ngFor="let post of redditService.redditPosts" class="post">
+    <p>{{post.title}}</p>
+    <img src='{{post.thumbnail}}' onError="this.src='../assets/noAvailImage.jpg'">
+    <a href='{{post.link}}'>Click here to go to full post</a>
+</div>
+

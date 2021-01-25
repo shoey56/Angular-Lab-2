@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+app-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+body{
+    background-color: darkcyan;
+}
